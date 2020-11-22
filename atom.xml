@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Enjoyer007.github.io</id>
     <title>Bloger</title>
-    <updated>2020-11-22T12:01:08.654Z</updated>
+    <updated>2020-11-22T12:07:53.735Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Enjoyer007.github.io"/>
     <link rel="self" href="https://Enjoyer007.github.io/atom.xml"/>
@@ -17,20 +17,16 @@
         </link>
         <updated>2020-11-22T01:33:59.000Z</updated>
         <content type="html"><![CDATA[<p><ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#1%E5%AE%89%E8%A3%85package"><strong>1.安装package</strong></a></li>
-<li><a href="#2realhats%E7%94%A8%E6%B3%95"><strong>2.realhats用法</strong></a></li>
-</ul>
-</li>
+<li><a href="#%E5%AE%89%E8%A3%85package"><strong>安装package</strong></a></li>
+<li><a href="#realhats%E7%94%A8%E6%B3%95"><strong>realhats用法</strong></a></li>
 </ul>
 </p>
-<h2 id="1安装package"><strong>1.安装package</strong></h2>
+<h1 id="安装package"><strong>安装package</strong></h1>
 <p>前往<a href="https://www.ctan.org">CTAN</a>官网，下载<a href="https://www.ctan.org/pkg/realhats">realhats package</a></p>
 <p>将下载的package压缩包解压，如果解压的文件夹内没有**.sty**文件，则需要生成sty文件。打开终端，定位到解压的package文件夹内，输入<code>latex realhats</code>, 回车</p>
 <p>接下来安装package：找到texlive路径，如<code>C:\texlive\2020\texmf-dist\tex\latex</code>, 将包含sty文件的文件夹复制到此路径下<br>
 ，打开终端，输入 <code>texhash</code>，回车</p>
-<h2 id="2realhats用法"><strong>2.realhats用法</strong></h2>
+<h1 id="realhats用法"><strong>realhats用法</strong></h1>
 <p>调用realhats宏包，使用<code>\hat</code>命令即可实现给数学符号加漂亮帽子的效果，代码如下</p>
 <pre><code>\documentclass[UTF8]{ctexart}
 \usepackage{realhats}
