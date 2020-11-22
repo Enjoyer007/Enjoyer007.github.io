@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Enjoyer007.github.io</id>
     <title>Bloger</title>
-    <updated>2020-11-22T10:40:50.291Z</updated>
+    <updated>2020-11-22T10:48:34.275Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Enjoyer007.github.io"/>
     <link rel="self" href="https://Enjoyer007.github.io/atom.xml"/>
@@ -41,7 +41,7 @@
 <p>效果图：<br>
 <img src="https://github.com/Enjoyer007/markdownphoto/blob/main/realhats1.png?raw=true" alt="" loading="lazy"></p>
 <p>注意：<code>\hat</code>命令需在数学环境下使用，否则会报错，此外，要用<code>pdflatex</code>编译，用<code>xelatex</code>编译只能得到普通的帽子效果</p>
-<p>更多用法可参考realhats文档，获取方式：打开终端，输入<code>texdoc realhats</code>,回车</p>
+<p>更多用法可参考realhats文档，获取方式：打开终端，输入<code>texdoc realhats</code>, 回车</p>
 ]]></content>
     </entry>
 </feed>
