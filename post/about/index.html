@@ -9,7 +9,7 @@
 <meta name="description" content="温故而知新">
 <meta name="theme-color" content="#000">
 <title>关于 | Bloger</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1606010978943">
+<link rel="shortcut icon" href="/favicon.ico?v=1606012806848">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -208,13 +208,13 @@
     </div>
     <div class="sidebar-item-box">
       <a href="">
-        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-count">2</span>
         <span class="site-item-stat-name language" data-lan="category">分类</span>
       </a>
     </div>
     <div class="sidebar-item-box">
       <a href="/tags/">
-        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-count">2</span>
         <span class="site-item-stat-name language" data-lan="tag">标签</span>
       </a>
     </div>
@@ -1027,14 +1027,13 @@
 &lt;p&gt;接下来安装package：找到texlive路径，如&lt;code&gt;C:\texlive\2020\texmf-dist\tex\latex&lt;/code&gt;, 将包含sty文件的文件夹复制到此路径下&lt;br&gt;
 ，打开终端，输入 &lt;code&gt;texhash&lt;/code&gt;，回车&lt;/p&gt;
 &lt;h1 id=&#34;2realhats用法&#34;&gt;&lt;strong&gt;2.realhats用法&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;调用realhats宏包，使用&lt;code&gt;\hat&lt;/code&gt;命令即可实现给数学符号加漂亮帽子的效果，代码如下&lt;br&gt;
-‘&lt;br&gt;
-\documentclass[UTF8]{ctexart}&lt;br&gt;
-\usepackage{realhats}&lt;br&gt;
-\begin{document}&lt;br&gt;
-&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mo&gt;[&lt;/mo&gt;&lt;mo&gt;^&lt;/mo&gt;&lt;/mover&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;w&lt;/mi&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;mi&gt;o&lt;/mi&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;]&lt;/mo&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\hat[cowboy]{a}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.26344em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord accent&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.01344em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.319em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;accent-body&#34; style=&#34;left:-0.25em;&#34;&gt;^&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.25em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34; style=&#34;margin-right:0.02691em;&#34;&gt;w&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;o&lt;/span&gt;&lt;span class=&#34;mord mathdefault&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathdefault&#34;&gt;a&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;
-\end{document}&lt;br&gt;
-’&lt;/p&gt;
+&lt;p&gt;调用realhats宏包，使用&lt;code&gt;\hat&lt;/code&gt;命令即可实现给数学符号加漂亮帽子的效果，代码如下&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;\documentclass[UTF8]{ctexart}
+\usepackage{realhats}
+\begin{document}
+	$\hat[cowboy]{a}$
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;注意：&lt;code&gt;\hat&lt;/code&gt;命令需在数学环境下使用，否则会报错，此外，要用&lt;code&gt;pdflatex&lt;/code&gt;编译，用&lt;code&gt;xelatex&lt;/code&gt;编译只能得到简单的帽子效果&lt;/p&gt;
 &lt;p&gt;更多用法可参考realhats文档，获取方式：打开终端，输入&lt;code&gt;texdoc realhats&lt;/code&gt;,回车&lt;/p&gt;
 ">realhats使用</a>

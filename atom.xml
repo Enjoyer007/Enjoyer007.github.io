@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Enjoyer007.github.io</id>
     <title>Bloger</title>
-    <updated>2020-11-22T02:09:40.989Z</updated>
+    <updated>2020-11-22T02:40:13.539Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Enjoyer007.github.io"/>
     <link rel="self" href="https://Enjoyer007.github.io/atom.xml"/>
@@ -22,14 +22,13 @@
 <p>接下来安装package：找到texlive路径，如<code>C:\texlive\2020\texmf-dist\tex\latex</code>, 将包含sty文件的文件夹复制到此路径下<br>
 ，打开终端，输入 <code>texhash</code>，回车</p>
 <h1 id="2realhats用法"><strong>2.realhats用法</strong></h1>
-<p>调用realhats宏包，使用<code>\hat</code>命令即可实现给数学符号加漂亮帽子的效果，代码如下<br>
-‘<br>
-\documentclass[UTF8]{ctexart}<br>
-\usepackage{realhats}<br>
-\begin{document}<br>
-<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mo>[</mo><mo>^</mo></mover><mi>c</mi><mi>o</mi><mi>w</mi><mi>b</mi><mi>o</mi><mi>y</mi><mo>]</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">\hat[cowboy]{a}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.26344em;vertical-align:-0.25em;"></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01344em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mopen">[</span></span><span style="top:-3.319em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;">^</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.25em;"><span></span></span></span></span></span><span class="mord mathdefault">c</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mord mathdefault">b</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mclose">]</span><span class="mord"><span class="mord mathdefault">a</span></span></span></span></span><br>
-\end{document}<br>
-’</p>
+<p>调用realhats宏包，使用<code>\hat</code>命令即可实现给数学符号加漂亮帽子的效果，代码如下</p>
+<pre><code>\documentclass[UTF8]{ctexart}
+\usepackage{realhats}
+\begin{document}
+	$\hat[cowboy]{a}$
+\end{document}
+</code></pre>
 <p>注意：<code>\hat</code>命令需在数学环境下使用，否则会报错，此外，要用<code>pdflatex</code>编译，用<code>xelatex</code>编译只能得到简单的帽子效果</p>
 <p>更多用法可参考realhats文档，获取方式：打开终端，输入<code>texdoc realhats</code>,回车</p>
 ]]></content>
