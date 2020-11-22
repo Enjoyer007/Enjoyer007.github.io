@@ -8,8 +8,8 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="温故而知新">
 <meta name="theme-color" content="#000">
-<title>Realhats使用 | Bloger</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1606034616445">
+<title> Realhats使用 | Bloger</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1606036576588">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -38,7 +38,7 @@
 
 
 
-  <meta name="description" content="Realhats使用" />
+  <meta name="description" content=" Realhats使用" />
   <meta name="keywords" content="LaTeX" />
 </head>
 
@@ -180,70 +180,20 @@
   
     <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
       
-        <div class="post-list-sidebar">
-          <div class="sidebar-title">
-            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active language" data-lan="index">文章目录</span>
-            <span id="metaSideBar" class="sidebar-title-item language" data-lan="preview">站点概览</span>
-          </div>
-        </div>
-      
       <div class="sidebar-body gemini" id="sidebar_body">
         
           
-            <div class="post-side-meta" id="post_side_meta">
-              
-<div class="sidebar-wrapper box-shadow-wrapper bg-color">
-  <div class="sidebar-item">
-    <img class="site-author-image right-motion" src="/images/avatar.png"/>
-    <p class="site-author-name">龙人浚</p>
-    
-    <div class="site-description right-motion">
-      
-      
-      
-        <p>像我这样的人，一事无成~</p>
-      
-      
-    </div>
-    
-  </div>
-  <div class="sidebar-item side-item-stat right-motion">
-    <div class="sidebar-item-box">
-      <a href="/archives/">
-        
-        <span class="site-item-stat-count">1</span>
-        <span class="site-item-stat-name language" data-lan="article">文章</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="">
-        <span class="site-item-stat-count">1</span>
-        <span class="site-item-stat-name language" data-lan="category">分类</span>
-      </a>
-    </div>
-    <div class="sidebar-item-box">
-      <a href="/tags/">
-        <span class="site-item-stat-count">1</span>
-        <span class="site-item-stat-name language" data-lan="tag">标签</span>
-      </a>
-    </div>
-  </div>
-  
-    
-  
-  
-
-
-
-</div>
-            </div>
-            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+            <div style="opacity: 1;">
               <div class="toc-box right-motion">
   <div class="toc-wrapper auto-number auto"
     id="toc_wrapper">
     <ul class="markdownIt-TOC">
+<li>
+<ul>
 <li><a href="#1%E5%AE%89%E8%A3%85package"><strong>1.安装package</strong></a></li>
 <li><a href="#2realhats%E7%94%A8%E6%B3%95"><strong>2.realhats用法</strong></a></li>
+</ul>
+</li>
 </ul>
 
   </div>
@@ -510,7 +460,7 @@
             <section class="post-header">
   <h1 class="post-title">
     <a class="post-title-link" href="https://Enjoyer007.github.io/post/realhats-shi-yong/">
-      Realhats使用
+       Realhats使用
     </a>
   </h1>
   <div class="post-meta">
@@ -542,18 +492,27 @@
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>226<span class="pc-show language" data-lan="words">字数</span></span>
+      <span>234<span class="pc-show language" data-lan="words">字数</span></span>
     </span>
     
   </div>
 </section>
             <div class="post-body next-md-body" id="post_body">
-              <h1 id="1安装package"><strong>1.安装package</strong></h1>
+              <p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#1%E5%AE%89%E8%A3%85package"><strong>1.安装package</strong></a></li>
+<li><a href="#2realhats%E7%94%A8%E6%B3%95"><strong>2.realhats用法</strong></a></li>
+</ul>
+</li>
+</ul>
+</p>
+<h2 id="1安装package"><strong>1.安装package</strong></h2>
 <p>前往<a href="https://www.ctan.org">CTAN</a>官网，下载<a href="https://www.ctan.org/pkg/realhats">realhats package</a></p>
 <p>将下载的package压缩包解压，如果解压的文件夹内没有**.sty**文件，则需要生成sty文件。打开终端，定位到解压的package文件夹内，输入<code>latex realhats</code>, 回车</p>
 <p>接下来安装package：找到texlive路径，如<code>C:\texlive\2020\texmf-dist\tex\latex</code>, 将包含sty文件的文件夹复制到此路径下<br>
 ，打开终端，输入 <code>texhash</code>，回车</p>
-<h1 id="2realhats用法"><strong>2.realhats用法</strong></h1>
+<h2 id="2realhats用法"><strong>2.realhats用法</strong></h2>
 <p>调用realhats宏包，使用<code>\hat</code>命令即可实现给数学符号加漂亮帽子的效果，代码如下</p>
 <pre><code>\documentclass[UTF8]{ctexart}
 \usepackage{realhats}
@@ -577,7 +536,7 @@
     </li>
     <li class="post-copyright-link">
       <strong class="language" data-lan="link">本文链接：</strong>
-      <a href="https://Enjoyer007.github.io/post/realhats-shi-yong/" title="Realhats使用">https://Enjoyer007.github.io/post/realhats-shi-yong/</a>
+      <a href="https://Enjoyer007.github.io/post/realhats-shi-yong/" title=" Realhats使用">https://Enjoyer007.github.io/post/realhats-shi-yong/</a>
     </li>
     <li class="post-copyright-license">
       <strong class="language" data-lan="copyright">版权声明： </strong>
@@ -1076,13 +1035,30 @@
     <div class="result" id="result">
       
       <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://Enjoyer007.github.io/post/python-zhuang-shi-qi/"" data-c="
+          &lt;p&gt;&lt;br&gt;
+&lt;strong&gt;这是测试，乱写的&lt;/strong&gt;&lt;br&gt;
+好了的简欧精品【爬山法IPO【跑起来啊【看得起【-看傲娇打开【裴奥卡佛排气孔apk破乾坤&lt;/p&gt;
+">Python装饰器</a>
+      </div>
+      
+      <div class="item">
         <a class="result-title" style="opacity: 0;" href="https://Enjoyer007.github.io/post/realhats-shi-yong/"" data-c="
-          &lt;h1 id=&#34;1安装package&#34;&gt;&lt;strong&gt;1.安装package&lt;/strong&gt;&lt;/h1&gt;
+          &lt;p&gt;&lt;ul class=&#34;markdownIt-TOC&#34;&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#1%E5%AE%89%E8%A3%85package&#34;&gt;&lt;strong&gt;1.安装package&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#2realhats%E7%94%A8%E6%B3%95&#34;&gt;&lt;strong&gt;2.realhats用法&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;1安装package&#34;&gt;&lt;strong&gt;1.安装package&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;前往&lt;a href=&#34;https://www.ctan.org&#34;&gt;CTAN&lt;/a&gt;官网，下载&lt;a href=&#34;https://www.ctan.org/pkg/realhats&#34;&gt;realhats package&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;将下载的package压缩包解压，如果解压的文件夹内没有**.sty**文件，则需要生成sty文件。打开终端，定位到解压的package文件夹内，输入&lt;code&gt;latex realhats&lt;/code&gt;, 回车&lt;/p&gt;
 &lt;p&gt;接下来安装package：找到texlive路径，如&lt;code&gt;C:\texlive\2020\texmf-dist\tex\latex&lt;/code&gt;, 将包含sty文件的文件夹复制到此路径下&lt;br&gt;
 ，打开终端，输入 &lt;code&gt;texhash&lt;/code&gt;，回车&lt;/p&gt;
-&lt;h1 id=&#34;2realhats用法&#34;&gt;&lt;strong&gt;2.realhats用法&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;2realhats用法&#34;&gt;&lt;strong&gt;2.realhats用法&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;调用realhats宏包，使用&lt;code&gt;\hat&lt;/code&gt;命令即可实现给数学符号加漂亮帽子的效果，代码如下&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;\documentclass[UTF8]{ctexart}
 \usepackage{realhats}
@@ -1094,7 +1070,7 @@
 &lt;img src=&#34;https://github.com/Enjoyer007/markdownphoto/blob/main/realhats1.png?raw=true&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/p&gt;
 &lt;p&gt;注意：&lt;code&gt;\hat&lt;/code&gt;命令需在数学环境下使用，否则会报错，此外，要用&lt;code&gt;pdflatex&lt;/code&gt;编译，用&lt;code&gt;xelatex&lt;/code&gt;编译只能得到普通的帽子效果&lt;/p&gt;
 &lt;p&gt;更多用法可参考realhats文档，获取方式：打开终端，输入&lt;code&gt;texdoc realhats&lt;/code&gt;,回车&lt;/p&gt;
-">Realhats使用</a>
+"> Realhats使用</a>
       </div>
       
       <div class="item">
