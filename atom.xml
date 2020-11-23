@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Enjoyer007.github.io</id>
     <title>Bloger</title>
-    <updated>2020-11-23T08:46:53.749Z</updated>
+    <updated>2020-11-23T09:01:27.158Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Enjoyer007.github.io"/>
     <link rel="self" href="https://Enjoyer007.github.io/atom.xml"/>
@@ -16,7 +16,13 @@
         <link href="https://Enjoyer007.github.io/post/markdown-jiao-cheng-chi-xu-geng-xin/">
         </link>
         <updated>2020-11-23T07:39:01.000Z</updated>
-        <content type="html"><![CDATA[<p>@[tooc]</p>
+        <content type="html"><![CDATA[<p><font size = 5  face="黑体" color =red>目录 </font></p>
+<p><ul class="markdownIt-TOC">
+<li><a href="#%E7%AE%80%E4%BB%8B"><strong>简介</strong></a></li>
+<li><a href="#%E7%BC%96%E8%BE%91%E5%99%A8"><strong>编辑器</strong></a></li>
+<li><a href="#%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><strong>基础语法</strong></a></li>
+</ul>
+</p>
 <h1 id="简介"><strong>简介</strong></h1>
 <p>Markdown是由John Gruber伙同Aaron Swartz开发，并于2004年发布的标记语言，其设计灵感主要源于纯文本电子邮件的格式，目的是让人们可以使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为HTML文档。 Markdown语法经历了一系列演变，最新的扩展语法为2017年的Github Flavored Markdown(简写GFM)。</p>
 <p>对于文本编辑，大家用的最多的应该是Word，那么Markdown与Word比较，有何优势呢？下表列出Markdown与Word的比较供大家参考。</p>
@@ -82,7 +88,8 @@
         <link href="https://Enjoyer007.github.io/post/realhats-shi-yong/">
         </link>
         <updated>2020-11-22T01:33:59.000Z</updated>
-        <content type="html"><![CDATA[<p><ul class="markdownIt-TOC">
+        <content type="html"><![CDATA[<p><font size = 5  face="黑体" color =red>目录 </font></p>
+<p><ul class="markdownIt-TOC">
 <li><a href="#%E5%AE%89%E8%A3%85package"><strong>安装package</strong></a></li>
 <li><a href="#realhats%E7%94%A8%E6%B3%95"><strong>realhats用法</strong></a></li>
 </ul>
